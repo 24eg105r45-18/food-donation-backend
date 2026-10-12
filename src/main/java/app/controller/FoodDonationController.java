@@ -11,10 +11,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/donations")
-@CrossOrigin(origins = {
-        "http://localhost:5173",
-        "https://24eg105r45.netlify.app"
-})
+@CrossOrigin(origins = {"http://localhost:5173","https://24eg105r45.netlify.app"})
 public class FoodDonationController {
 
     private final FoodDonationService service;
